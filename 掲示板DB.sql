@@ -1,0 +1,13 @@
+CREATE DATABASE SNS;
+
+USE SNS;
+
+CREATE TABLE snsdata(
+  id int(2) AUTO_INCREMENT PRIMARY KEY,
+  name  VARCHAR(32) NOT NULL,
+  mail VARCHAR(32) NOT NULL,
+  days VARCHAR(40) NOT NULL,
+  updatetime VARCHAR(40),
+  comment VARCHAR(240) NOT NULL,
+  faile VARCHAR(240) NOT NUll
+);
